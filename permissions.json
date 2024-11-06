@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "dcId": "28183xxx",
+      "username": "exfynation",
+      "permissions": [
+        "main.botctl.mcauth",
+        "main.botctl.screenshare"
+      ]
+    },
+    {
+      "dcId": "2323xxx",
+      "username": "jemand",
+      "permissions": [
+        "main.botctl.mcauth",
+        "main.botctl.screenshare"
+      ]
+    }
+  ]
+}

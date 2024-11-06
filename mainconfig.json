@@ -1,0 +1,6 @@
+{
+  "bot_token": "token",
+  "debug": false,
+  "botctl_channel_id":"0",
+  "guild_id":"0"
+}

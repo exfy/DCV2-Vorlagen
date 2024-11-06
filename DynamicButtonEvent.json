@@ -1,0 +1,72 @@
+{
+    "dynamicbuttonevents": [
+        {
+            "systemname": "lagerscan",
+            "displayname": "Lagerscan",
+            "minimalReqVersion": 1,
+            "conditions": [
+                {
+                    "systemname": "isOnBotPos",
+                    "displayname": "isOnBotPos",
+                    "minimalReqVersion": 1,
+                    "data": {}
+                }
+            ],
+            "comment": "",
+            "permission": "",
+            "dynButtonType": "success",
+            "actions": [
+                {
+                    "actionname": "PrivateMessageAction",
+                    "actiondisplayname": "PrivateMessageAction",
+                    "minimalReqVersion": 1,
+                    "data": {
+                        "player": "%system_username%",
+                        "message": "lagerscan",
+                        "cmdPrio": "NORMAL"
+                    }
+                }
+            ]
+        },
+        {
+            "systemname": "homeon",
+            "displayname": "Home on",
+            "minimalReqVersion": 1,
+            "conditions": [],
+            "comment": "",
+            "permission": "main.botctl.dyn.home",
+            "dynButtonType": "primary",
+            "actions": [
+                {
+                    "actionname": "CommandAction",
+                    "actiondisplayname": "CommandAction",
+                    "minimalReqVersion": 1,
+                    "data": {
+                        "command": "home on",
+                        "cmdPrio": "NORMAL"
+                    }
+                }
+            ]
+        },
+        {
+            "systemname": "homeoff",
+            "displayname": "Home off",
+            "minimalReqVersion": 1,
+            "conditions": [],
+            "comment": "",
+            "permission": "main.botctl.dyn.home",
+            "dynButtonType": "primary",
+            "actions": [
+                {
+                    "actionname": "CommandAction",
+                    "actiondisplayname": "CommandAction",
+                    "minimalReqVersion": 1,
+                    "data": {
+                        "command": "home off",
+                        "cmdPrio": "NORMAL"
+                    }
+                }
+            ]
+        }
+    ]
+}

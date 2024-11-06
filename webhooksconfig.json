@@ -1,0 +1,5 @@
+{
+"webhook_joiner":"http://",
+"webhook_systemlog":"http://",
+"webhook_dcmsgpay":"http://"
+}
